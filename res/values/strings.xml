@@ -34,8 +34,8 @@
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+        <item quantity="one"><xliff:g id="step_count">%1$d</xliff:g> step remaining to enable developer options.</item>
+        <item quantity="other"><xliff:g id="step_count">%1$d</xliff:g> steps remaining to enable developer options.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on">You are now a developer!</string>
@@ -113,7 +113,7 @@
     <string name="radioInfo_data_suspended">Suspended</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_unknown">unknown</string>
+    <string name="radioInfo_unknown">Unknown</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_packets">pkts</string>
     <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -671,6 +671,7 @@
     <string name="show_owner_info_on_lockscreen_label">Show owner info on lock screen</string>
     <!-- Text shown for title of owner info setting [CHAR LIMIT=20]-->
     <string name="owner_info_settings_title">Owner info</string>
+	<string name="owner_info_settings_default_text">Protos</string>
     <!-- Text shown for summary of owner info setting [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary"></string>
     <!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
@@ -1872,7 +1873,7 @@
     <!-- About phone screen,  setting option name-->
     <string name="kernel_version">Kernel version</string>
     <!-- About phone screen,  setting option name-->
-    <string name="build_number">Build number</string>
+    <string name="build_number">Protos version</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
